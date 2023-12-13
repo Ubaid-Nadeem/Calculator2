@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator__output" id="output_value">0</div>
+        <div class="calculator__keys">
+            <button class="calculator__key calculator__key--operator calculator_value"
+                onclick="getValue('+')">+</button>
+            <button class="calculator__key calculator__key--operator calculator_value"
+                onclick="getValue('-')">-</button>
+            <button class="calculator__key calculator__key--operator calculator_value"
+                onclick="getValue('*')">&times;</button>
+            <button class="calculator__key calculator__key--operator calculator_value"
+                onclick="getValue('/')">÷</button>
+            <button class="calculator__key  calculator_value" onclick="getValue('7')">7</button>
+            <button class="calculator__key calculator_value" onclick="getValue('8')">8</button>
+            <button class="calculator__key calculator_value" onclick="getValue('9')">9</button>
+            <button class="calculator__key calculator_value" onclick="getValue('4')">4</button>
+            <button class="calculator__key calculator_value" onclick="getValue('5')">5</button>
+            <button class="calculator__key calculator_value" onclick="getValue('6')">6</button>
+            <button class="calculator__key calculator_value" onclick="getValue('1')">1</button>
+            <button class="calculator__key calculator_value" onclick="getValue('2')">2</button>
+            <button class="calculator__key calculator_value" onclick="getValue('3')">3</button>
+            <button class="calculator__key calculator_value" onclick="getValue('0')">0</button>
+            <button class="calculator__key calculator_value" onclick="getValue('.')">.</button>
+            <button class="calculator__key calculator_value" onclick="getValue('AC')">AC</button>
+            <button class="calculator__key calculator__key--enter calculator_value" onclick="getValue('=')">=</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
